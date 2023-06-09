@@ -1,0 +1,52 @@
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\bin\Debug\net7.0-windows\Kütüphane Projesi wpf.exe
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\bin\Debug\net7.0-windows\Kütüphane Projesi wpf.deps.json
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\bin\Debug\net7.0-windows\Kütüphane Projesi wpf.runtimeconfig.json
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\bin\Debug\net7.0-windows\Kütüphane Projesi wpf.dll
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\bin\Debug\net7.0-windows\Kütüphane Projesi wpf.pdb
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kütüphane Projesi wpf.csproj.AssemblyReference.cache
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kütüphane Projesi wpf_MarkupCompile.cache
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kütüphane Projesi wpf_MarkupCompile.lref
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kütüphane Projesi wpf.g.resources
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kütüphane Projesi wpf.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kütüphane Projesi wpf.AssemblyInfoInputs.cache
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kütüphane Projesi wpf.AssemblyInfo.cs
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kütüphane Projesi wpf.csproj.CoreCompileInputs.cache
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kütüphane Projesi wpf.dll
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\refint\Kütüphane Projesi wpf.dll
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kütüphane Projesi wpf.pdb
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kütüphane Projesi wpf.genruntimeconfig.cache
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\ref\Kütüphane Projesi wpf.dll
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kayit_Ekranı.g.cs
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kayit_Ekranı.baml
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\bin\Debug\net7.0-windows\Google.Protobuf.dll
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\bin\Debug\net7.0-windows\K4os.Compression.LZ4.dll
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\bin\Debug\net7.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\bin\Debug\net7.0-windows\K4os.Hash.xxHash.dll
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\bin\Debug\net7.0-windows\MySql.Data.dll
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\bin\Debug\net7.0-windows\BouncyCastle.Crypto.dll
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\bin\Debug\net7.0-windows\System.IO.Pipelines.dll
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\bin\Debug\net7.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\bin\Debug\net7.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\bin\Debug\net7.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\bin\Debug\net7.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\bin\Debug\net7.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Ana_Menu.g.cs
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Ana_Menu.baml
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kütüphane Projesi wpf.csproj.CopyComplete
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kitapları Görüntüler.g.cs
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kitap_Ekleme.g.cs
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kitapları Görüntüler.baml
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kitap_Ekleme.baml
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\emanet_ekle_window.g.cs
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\emanet_ekle_window.baml
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\emanet_görüntüle.g.cs
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\emanet_görüntüle.baml
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kullanici Ekle.g.cs
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kullanicilari görüntüle.g.cs
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kullanici Ekle.baml
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\Kullanicilari görüntüle.baml
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\alinacak_kitaplar_window.g.cs
+C:\Users\efe\Desktop\Kütüphane Projesi wpf\Kütüphane Projesi wpf\obj\Debug\net7.0-windows\alinacak_kitaplar_window.baml

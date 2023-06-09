@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="alinacak_kitaplar_window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Ana_Menu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="emanet_ekle_window.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="emanet_görüntüle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Kayit_Ekranı.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Kitapları Görüntüler.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Kitap_Ekleme.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Kullanici Ekle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Kullanicilari görüntüle.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="alinacak_kitaplar_window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Ana_Menu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="emanet_ekle_window.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="emanet_görüntüle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Kayit_Ekranı.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Kitapları Görüntüler.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Kitap_Ekleme.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Kullanici Ekle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Kullanicilari görüntüle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

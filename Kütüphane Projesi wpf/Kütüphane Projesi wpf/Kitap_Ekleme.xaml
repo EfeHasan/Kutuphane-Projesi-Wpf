@@ -1,0 +1,26 @@
+﻿<Window x:Class="Kütüphane_Projesi_wpf.Kitap_Ekleme"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kütüphane_Projesi_wpf"
+        mc:Ignorable="d"
+        Title="Kitap_Ekleme" Height="450" Width="800" Loaded="Window_Loaded_1" Closing="Window_Closing">
+    <Grid Loaded="Grid_Loaded">
+        <Label Content="Kitap İsmi:" FontSize="16" HorizontalAlignment="Left" Margin="10,89,0,0" VerticalAlignment="Top" FontFamily="Agency FB"/>
+        <TextBox  HorizontalAlignment="Left" FontSize="16" Margin="98,91,0,0" TextWrapping="Wrap" Text="" Name="Kitap_Ismi" VerticalAlignment="Top" Width="123" Height="24" FontFamily="Agency FB"/>
+        <Label Content="Kitap Yazarı:" FontSize="16" HorizontalAlignment="Left" Margin="10,132,0,0" VerticalAlignment="Top" FontFamily="Agency FB"/>
+        <TextBox HorizontalAlignment="Left" FontSize="16" Margin="98,134,0,0" TextWrapping="Wrap" Text="" x:Name="kitap_yazari" VerticalAlignment="Top" Width="123" Height="24" FontFamily="Agency FB"/>
+        <ComboBox Name="kitap_turu" HorizontalAlignment="Left" Margin="98,184,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="kitap_turu_SelectionChanged"/>
+        <Label Content="Kitap Türü:" FontSize="16" HorizontalAlignment="Left" Margin="10,177,0,0" VerticalAlignment="Top" FontFamily="Agency FB"/>
+        <Label Content="Basım Tari:" FontSize="16" HorizontalAlignment="Left" Margin="10,215,0,0" VerticalAlignment="Top" FontFamily="Agency FB"/>
+        <DatePicker Name="tarih" HorizontalAlignment="Left" Margin="98,217,0,0" VerticalAlignment="Top"/>
+        <Button ToolTip="Kitap Ekleme Butonu" Content="Kitabı Ekle" x:Name="Kitap_Ekle" HorizontalAlignment="Left" Margin="10,308,0,0" VerticalAlignment="Top" Height="34" Width="92" FontFamily="Agency FB" FontSize="16"  Background="White" BorderBrush="White" Click="Kitap_Ekle_Click"/>
+        <Button ToolTip="Kitap Silme Butonu" Content="Kitabı Sil" x:Name="Kitabı_Sil" HorizontalAlignment="Left" Margin="107,308,0,0" VerticalAlignment="Top" Height="34" Width="92" FontFamily="Agency FB" FontSize="16"  Background="White" BorderBrush="White" Click="Kitabı_Sil_Click"/>
+        <Button ToolTip="Ana Menü Butonu" Content="Ana Menü" x:Name="ana_menu" HorizontalAlignment="Left" Margin="495,308,0,0" VerticalAlignment="Top" Height="34" Width="92" FontFamily="Agency FB" FontSize="16"  Background="White" BorderBrush="White" Click="ana_menu_Click"/>
+        <Button ToolTip="Kitabın Yazarını Değiştir" Content="Yazarı Değiştir" x:Name="Yazari_degistir" HorizontalAlignment="Left" Margin="204,308,0,0" VerticalAlignment="Top" Height="34" Width="92" FontFamily="Agency FB" FontSize="16"  Background="White" BorderBrush="White" Click="Yazari_degistir_Click" />
+        <Button ToolTip="Kitabın Basım Tarihini Değiştir" Content="Tarihini Değiştir" x:Name="tarihini" HorizontalAlignment="Left" Margin="301,308,0,0" VerticalAlignment="Top" Height="34" Width="92" FontFamily="Agency FB" FontSize="16"  Background="White" BorderBrush="White" Click="tarihini_Click" />
+        <Button ToolTip="Kitabın Türünü Değiştir" Content="Türünü Değiştir" x:Name="Turu_degistir" HorizontalAlignment="Left" Margin="398,308,0,0" VerticalAlignment="Top" Height="34" Width="92" FontFamily="Agency FB" FontSize="16"  Background="White" BorderBrush="White" Click="Turu_degistir_Click"/>
+
+    </Grid>
+</Window>

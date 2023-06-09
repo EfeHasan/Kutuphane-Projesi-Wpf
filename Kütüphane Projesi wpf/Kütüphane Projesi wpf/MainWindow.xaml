@@ -1,0 +1,23 @@
+﻿<Window x:Class="Kütüphane_Projesi_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kütüphane_Projesi_wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF593F61" Loaded="Grid_Loaded">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button ToolTip="Giriş Butonu" Content="Giriş Yap" Name="Giris_Yap" HorizontalAlignment="Left" Margin="288,246,0,0" VerticalAlignment="Top" Height="34" Width="92" FontFamily="Agency FB" FontSize="16" Click="Giris_Yap_Click" Background="White"/>
+        <Button  ToolTip="Kayıt Butonu" Content="Kayit Ol" x:Name="Kayit_OL" HorizontalAlignment="Left" Margin="269,199,0,0" VerticalAlignment="Top" Height="22" Width="65" FontFamily="Agency FB" FontSize="16" Click="Kayit_OL_Click" Background="#FF593F61" Foreground="White" BorderBrush="#FF593F61"/>
+        <TextBox ToolTip="Kullanıcı adınızı giriniz" Name="Kullanici_Adi" HorizontalAlignment="Left" Margin="269,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Height="34" FontSize="16" FontStyle="Italic" FontFamily="Agency FB" RenderTransformOrigin="0.529,-1.516"/>
+        <PasswordBox ToolTip="Şifrenizi giriniz" Name="Sifre_kutusu" HorizontalAlignment="Left" Margin="269,140,0,0" VerticalAlignment="Top" Width="131" Height="34" FontSize="16" FontFamily="Agency FB"/>
+        <Label Content="Kullanıcı Adınızı Giriniz:" HorizontalAlignment="Left" Margin="80,69,0,0" VerticalAlignment="Top" Width="184" FontSize="20" FontFamily="Agency FB" Foreground="White"/>
+        <Label Content="Şifrenizi Gireniz
+:" HorizontalAlignment="Left" Margin="80,143,0,0" VerticalAlignment="Top" Width="184" FontSize="20" FontFamily="Agency FB" Foreground="White"/>
+        <RadioButton Name="radiobutton" Content="Beni Hatırla" HorizontalAlignment="Left" Margin="269,179,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.325,0.444" Foreground="White" Checked="RadioButton_Checked"/>
+
+    </Grid>
+</Window>

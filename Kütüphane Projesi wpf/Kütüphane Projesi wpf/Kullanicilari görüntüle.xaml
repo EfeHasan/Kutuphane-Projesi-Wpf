@@ -1,0 +1,36 @@
+﻿<Window x:Class="Kütüphane_Projesi_wpf.Kullanicilari_görüntüle"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kütüphane_Projesi_wpf"
+        mc:Ignorable="d"
+        Title="Kullanicilari_görüntüle" Height="450" Width="800" Closing="Window_Closing">
+    <Grid Loaded="Grid_Loaded">
+        <Button ToolTip="İsime Göre Bul" Content="İsime Göre Bul" x:Name="İsim_Bul" HorizontalAlignment="Left" Margin="70,320,0,0" VerticalAlignment="Top" Height="48" Width="160" FontSize="20" FontFamily="Agency FB" BorderBrush="White" Click="İsim_Bul_Click" />
+        <ListView VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Standard" Margin="208,10,10,174" x:Name="listview" x:FieldModifier="public" >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="95" Header="İsim" DisplayMemberBinding="{Binding Isim}"/>
+                    <GridViewColumn Width="95" Header="Soyisim" DisplayMemberBinding="{Binding Soy_Isim}"/>
+                    <GridViewColumn Width="95" Header="Tc Kimlik" DisplayMemberBinding="{Binding Tc_No}"/>
+                    <GridViewColumn Width="95" Header="Telefon Numarası" DisplayMemberBinding="{Binding telefon_numarasi}"/>
+                    <GridViewColumn Width="95" Header="Sifre" DisplayMemberBinding="{Binding Sifre}"/>
+                    <GridViewColumn Width="95" Header="Yetki" DisplayMemberBinding="{Binding yetki}"/>
+
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TextBox  ToolTip="İsminizi Giriniz" x:Name="Isim_Box" HorizontalAlignment="Left" Margin="10,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Height="37" FontSize="16" FontStyle="Italic" FontFamily="Agency FB" RenderTransformOrigin="0.529,-1.516"/>
+        <Label x:Name="kitap_isimi_text"  Content="İsim" FontSize="20" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button ToolTip="Yetkiye Göre Bul" Content="Yetkiye Göre Bul" x:Name="Yetkiye_Gore" HorizontalAlignment="Left" Margin="235,320,0,0" VerticalAlignment="Top" Height="48" Width="160" FontSize="20" FontFamily="Agency FB" BorderBrush="White" Click="Yetkiye_Gore_Click" />
+        <TextBox  ToolTip="Soyisminizi Giriniz" x:Name="Soyisim_Box" HorizontalAlignment="Left" Margin="10,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Height="37" FontSize="16" FontStyle="Italic" FontFamily="Agency FB" RenderTransformOrigin="0.529,-1.516"/>
+        <Label x:Name="soyisim"  Content="Soyisim" FontSize="20" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top"/>
+        <Button ToolTip="Soyisime göre bul" Content="Soyisime Göre Bul" x:Name="soyisime_gore" HorizontalAlignment="Left" Margin="400,320,0,0" VerticalAlignment="Top" Height="48" Width="160" FontSize="20" FontFamily="Agency FB" BorderBrush="White" Click="soyisime_gore_Click" />
+        <ComboBox HorizontalAlignment="Left" Margin="10,232,0,0" Name="yetkiler" VerticalAlignment="Top" Width="131" Height="37" FontSize="18" FontFamily="Agency FB"/>
+        <Label x:Name="soyisim_Copy"  Content="Yetkiler" FontSize="20" HorizontalAlignment="Left" Margin="13,190,0,0" VerticalAlignment="Top"/>
+        <Button ToolTip="Ana Menü Ekranına Atar" Content="Ana Menüye" x:Name="Ana_Menu" HorizontalAlignment="Left" Margin="565,320,0,0" VerticalAlignment="Top" Height="48" Width="166" FontSize="20" FontFamily="Agency FB" BorderBrush="White" Click="Ana_Menu_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,24 @@
+﻿<Window x:Class="Kütüphane_Projesi_wpf.emanet_ekle_window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kütüphane_Projesi_wpf"
+        mc:Ignorable="d"
+        Title="emanet_ekle_window" Height="450" Width="800" Closing="Window_Closing">
+    <Grid>
+        <TextBox ToolTip="Kitap İsmini Giriniz" HorizontalAlignment="Left" Margin="183,164,0,0" TextWrapping="Wrap" Name="Kitap_Ismi" VerticalAlignment="Top" Width="120" FontFamily="Agency FB" FontSize="18"/>
+        <Label Content="Kitap Adını Giriniz:" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top" Width="168" FontFamily="Agency FB" FontSize="18"/>
+        <TextBox MaxLength="11" ToolTip="Tc Kimlik Numarasını Giriniz" HorizontalAlignment="Left" Margin="183,128,0,0" TextWrapping="Wrap" x:Name="Tc_Kimlik" VerticalAlignment="Top" Width="120" FontFamily="Agency FB" FontSize="18"/>
+        <Label Content="Tc Kimlik Numarasını Giriniz:" HorizontalAlignment="Left" Margin="10,124,0,0" VerticalAlignment="Top" Width="168" FontFamily="Agency FB" FontSize="18"/>
+        <TextBox ToolTip="İsmnizi Giriniz" HorizontalAlignment="Left" Margin="183,56,0,0" TextWrapping="Wrap" x:Name="İsmnizi_Giriniz" VerticalAlignment="Top" Width="120" FontFamily="Agency FB" FontSize="18"/>
+        <Label Content="İsmnizi Giriniz:" HorizontalAlignment="Left" Margin="10,52,0,0" VerticalAlignment="Top" Width="168" FontFamily="Agency FB" FontSize="18"/>
+        <TextBox ToolTip="Soyisminizi Giriniz" HorizontalAlignment="Left" Margin="183,92,0,0" TextWrapping="Wrap" x:Name="Soyisminizi_Giriniz" VerticalAlignment="Top" Width="120" FontFamily="Agency FB" FontSize="18"/>
+        <Label Content="Soyisminizi Giriniz:" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top" Width="168" FontFamily="Agency FB" FontSize="18"/>
+        <Button Name="Emanet_Al" Content="Emanet Al" HorizontalAlignment="Left" Margin="10,318,0,0" VerticalAlignment="Top" Height="34" Width="123" FontFamily="Agency FB" FontSize="18" Click="Emanet_Al_Click"/>
+        <Button x:Name="Emanet_Ver" Content="Emanet Ver" HorizontalAlignment="Left" Margin="138,318,0,0" VerticalAlignment="Top" Height="34" Width="123" FontFamily="Agency FB" FontSize="18" Click="Emanet_Ver_Click"/>
+        <Button x:Name="sil" Content="Sil" HorizontalAlignment="Left" Margin="266,318,0,0" VerticalAlignment="Top" Height="34" Width="123" FontFamily="Agency FB" FontSize="18" Click="sil_Click"/>
+        <Button x:Name="Ana_Menu" Content="Ana menü" HorizontalAlignment="Left" Margin="394,318,0,0" VerticalAlignment="Top" Height="34" Width="123" FontFamily="Agency FB" FontSize="18" Click="Ana_Menu_Click"/>
+
+    </Grid>
+</Window>

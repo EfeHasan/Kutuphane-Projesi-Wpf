@@ -1,0 +1,26 @@
+﻿<Window x:Class="Kütüphane_Projesi_wpf.Kayit_Ekranı"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kütüphane_Projesi_wpf"
+        mc:Ignorable="d"
+        Title="Kayit_Ekranı" Height="450" Width="800">
+    <Grid Background="#FF474747" Loaded="Grid_Loaded">
+        <TextBox ToolTip="Kullanıcı adınızı giriniz" x:Name="Isim_Kutusu" HorizontalAlignment="Left" Margin="269,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Height="34" FontSize="16" FontStyle="Italic" FontFamily="Agency FB" RenderTransformOrigin="0.529,-1.516" />
+        <PasswordBox ToolTip="Şifrenizi giriniz" x:Name="Sifre_kutusu" HorizontalAlignment="Left" Margin="269,291,0,0" VerticalAlignment="Top" Width="131" Height="34" FontSize="16" FontFamily="Agency FB" PasswordChanged="Sifre_kutusu_PasswordChanged"/>
+        <Label Content="Adınızı Girniz:" HorizontalAlignment="Left" Margin="115,80,0,0" VerticalAlignment="Top" Height="35" Width="131" FontFamily="Agency FB" FontSize="16" Foreground="White"/>
+        <Label Content="Şifrenizi Giriniz:" HorizontalAlignment="Left" Margin="115,291,0,0" VerticalAlignment="Top" Height="35" Width="131" FontFamily="Agency FB" FontSize="16" Foreground="White"/>
+        <TextBox ToolTip="Soyadınızı Giriniz" x:Name="Soy_Isim_Kutusu" HorizontalAlignment="Left" Margin="269,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Height="34" FontSize="16" FontStyle="Italic" FontFamily="Agency FB" RenderTransformOrigin="0.529,-1.516" />
+        <Label Content="Soyadınızı Girniz:" HorizontalAlignment="Left" Margin="115,132,0,0" VerticalAlignment="Top" Height="35" Width="131" FontFamily="Agency FB" FontSize="16" Foreground="White"/>
+        <TextBox ToolTip="Tc Kimlik Numaranızı Giriniz" x:Name="Tc_kimlik" HorizontalAlignment="Left" Margin="269,183,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Height="34" FontSize="16" FontStyle="Italic" FontFamily="Agency FB" RenderTransformOrigin="0.529,-1.516" />
+        <Label Content="Tc Numaranızı Giriniz:" HorizontalAlignment="Left" Margin="115,182,0,0" VerticalAlignment="Top" Height="35" Width="131" FontFamily="Agency FB" FontSize="16" Foreground="White"/>
+        <Label Content="Telefon Numaranızı Giriniz:" HorizontalAlignment="Left" Margin="115,236,0,0" VerticalAlignment="Top" Height="35" Width="154" FontFamily="Agency FB" FontSize="16" Foreground="White"/>
+        <Button x:Name="Kayit_button" Content="Kayıt Ol" HorizontalAlignment="Left" Margin="280,354,0,0" VerticalAlignment="Top" Height="44" Width="120" Background="#FF474747" BorderBrush="#FF474747" Foreground="White" FontFamily="Agency FB" FontSize="16" Click="Kayit_button_Click"/>
+        <ProgressBar Name="sifre_zorluk" HorizontalAlignment="Left" Height="35" Margin="405,290,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label Name="Sifre_Zorluk" Content="" HorizontalAlignment="Left" Margin="417,334,0,0" VerticalAlignment="Top" Height="35" Width="108" FontFamily="Agency FB" FontSize="16" Foreground="White"/>
+        <Button x:Name="Giris_Yap" Content="Giris Yap" HorizontalAlignment="Left" Margin="440,354,0,0" VerticalAlignment="Top" Height="44" Width="120" Background="#FF474747" BorderBrush="#FF474747" Foreground="White" FontFamily="Agency FB" FontSize="16" Click="Giris_Yap_Click"/>
+        <TextBox ToolTip="Telefon Numaranızı Giriniz" x:Name="Telefon_numarası" HorizontalAlignment="Left" Margin="269,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" Height="34" FontSize="16" FontStyle="Italic" FontFamily="Agency FB" RenderTransformOrigin="0.529,-1.516" />
+
+    </Grid>
+</Window>

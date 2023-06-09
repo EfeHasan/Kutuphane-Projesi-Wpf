@@ -1,0 +1,27 @@
+﻿<Window x:Class="Kütüphane_Projesi_wpf.alinacak_kitaplar_window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kütüphane_Projesi_wpf"
+        mc:Ignorable="d"
+        Title="alinacak_kitaplar_window" Height="450" Width="800" Closing="Window_Closing">
+    <Grid>
+        <ListView VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Standard" Margin="10,10,10,165" x:Name="listview" x:FieldModifier="public" >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="95" Header="İsim" DisplayMemberBinding="{Binding Isim}"/>
+                    <GridViewColumn Width="95" Header="Soyisim" DisplayMemberBinding="{Binding SoyIsim}"/>
+                    <GridViewColumn Width="95" Header="Tc Kimlik" DisplayMemberBinding="{Binding Tc_Kimlik}"/>
+                    <GridViewColumn Width="95" Header="Kitap İsmi" DisplayMemberBinding="{Binding Kitap_Ismi}"/>
+                    <GridViewColumn Width="95" Header="Alım Tarihi" DisplayMemberBinding="{Binding Alim_Tarihi}"/>
+
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button ToolTip="Ana Menü Ekranına Atar" Content="Ana Menüye" x:Name="Ana_Menu" HorizontalAlignment="Left" Margin="405,328,0,0" VerticalAlignment="Top" Height="56" Width="185" FontSize="20" FontFamily="Agency FB" BorderBrush="White" Click="Ana_Menu_Click"/>
+        <Button ToolTip="Görüntüler" Content="Görüntüle" x:Name="Goruntule" HorizontalAlignment="Left" Margin="215,328,0,0" VerticalAlignment="Top" Height="56" Width="185" FontSize="20" FontFamily="Agency FB" BorderBrush="White" Click="Goruntule_Click"/>
+
+    </Grid>
+</Window>

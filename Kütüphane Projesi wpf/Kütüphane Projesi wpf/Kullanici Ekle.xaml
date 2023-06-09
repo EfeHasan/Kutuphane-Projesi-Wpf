@@ -1,0 +1,27 @@
+﻿<Window x:Class="Kütüphane_Projesi_wpf.Kullanici_Ekle"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kütüphane_Projesi_wpf"
+        mc:Ignorable="d"
+        Title="Kullanıcı İşlemleri" Height="450" Width="800" Closing="Window_Closing">
+    <Grid>
+        <Button ToolTip="Şifre Değiştir" Content="Şifre Değiştir" x:Name="Sifre_Degistir" HorizontalAlignment="Left" Margin="32,306,0,0" VerticalAlignment="Top" Height="50" Width="179" FontSize="20" FontFamily="Agency FB" BorderBrush="White" Click="Sifre_Degistir_Click" />
+        <TextBox ToolTip="İsminizi Giriniz" Name="Isim" HorizontalAlignment="Left" Margin="148,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Width="130" Height="28"  FontFamily="Agency FB"/>
+        <TextBox ToolTip="Soyisminizi Giriniz" x:Name="Soyisim" HorizontalAlignment="Left" Margin="148,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Width="130" Height="28"  FontFamily="Agency FB"/>
+        <Label Content="İsminizi Giriniz:" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top" Height="29" Width="110" FontSize="18" FontFamily="Agency FB" />
+        <Label Content="Soyisminizi Giriniz:" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" Height="29" Width="133" FontSize="18" FontFamily="Agency FB" />
+        <Button ToolTip="Numara Değiştir" Content="Numara Değiştir" x:Name="Numara_Degistir" HorizontalAlignment="Left" Margin="216,306,0,0" VerticalAlignment="Top" Height="50" Width="179" FontSize="20" FontFamily="Agency FB" BorderBrush="White" Click="Numara_Degistir_Click"/>
+        <TextBox ToolTip="Yeni Şifrenizi Giriniz" x:Name="Sifre" HorizontalAlignment="Left" Margin="148,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Width="130" Height="28"  FontFamily="Agency FB"/>
+        <Label Content="Şifrenizi Giriniz:" HorizontalAlignment="Left" Margin="10,172,0,0" VerticalAlignment="Top" Height="29" Width="133" FontSize="18" FontFamily="Agency FB" />
+        <Button ToolTip="Yetki Ver" Content="Yetki Ver" x:Name="Yetki_Ver" HorizontalAlignment="Left" Margin="401,306,0,0" VerticalAlignment="Top" Height="50" Width="179" FontSize="20" FontFamily="Agency FB" BorderBrush="White" Click="Yetki_Ver_Click"/>
+        <Button ToolTip="Tc Değiştir" Content="Tc Değiştir" x:Name="Tc_Degistir" HorizontalAlignment="Left" Margin="585,306,0,0" VerticalAlignment="Top" Height="50" Width="179" FontSize="20" FontFamily="Agency FB" BorderBrush="White" Click="Tc_Degistir_Click"/>
+        <TextBox MaxLength="11" ToolTip="Tc Giriniz" x:Name="Tc" HorizontalAlignment="Left" Margin="148,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Width="130" Height="28"  FontFamily="Agency FB"/>
+        <Label Content="Tc Giriniz:" HorizontalAlignment="Left" Margin="10,231,0,0" VerticalAlignment="Top" Height="29" Width="133" FontSize="18" FontFamily="Agency FB" />
+        <Button ToolTip="Ana Menü" Content="Ana Menü" x:Name="Ana_menu" HorizontalAlignment="Left" Margin="277,374,0,0" VerticalAlignment="Top" Height="50" Width="179" FontSize="20" FontFamily="Agency FB" BorderBrush="White" Click="Ana_menu_Click"/>
+        <TextBox MaxLength="11" ToolTip="Numara Giriniz" x:Name="Numara" HorizontalAlignment="Left" Margin="444,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" Width="130" Height="28"  FontFamily="Agency FB"/>
+        <Label Content="Numaranızı Giriniz:" HorizontalAlignment="Left" Margin="306,55,0,0" VerticalAlignment="Top" Height="29" Width="132" FontSize="18" FontFamily="Agency FB" />
+
+    </Grid>
+</Window>
